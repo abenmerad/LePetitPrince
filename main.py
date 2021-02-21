@@ -1,11 +1,9 @@
-from CONFIGS import *
-# from FONCTIONS import *
+from FONCTIONS import *
 
+turtle.speed(0)
+turtle.hideturtle()
 
-def lire_matrice(fichier):
-    matrice = []
-    for ligne in open(fichier):
-        for lettre in ligne:
-            
-    return matrice
-print(lire_matrice(fichier_plan))
+matrice = lire_matrice(fichier_plan)
+afficher_plan(matrice)
+
+turtle.done()
