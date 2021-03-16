@@ -1,12 +1,14 @@
 ZONE_PLAN_MINI = (-240, -240)  # Coin inférieur gauche de la zone d'affichage du plan
 ZONE_PLAN_MAXI = (50, 200)  # Coin supérieur droit de la zone d'affichage du plan
+ORIGINE_ZONE_PLAN = (-240, 200)
 POINT_AFFICHAGE_ANNONCES = (-240, 240)  # Point d'origine de l'affichage des annonces
 POINT_AFFICHAGE_INVENTAIRE = (70, 210)  # Point d'origine de l'affichage de l'inventaire
+COORDONNEES_SPAWN = (-0.33, 1)
 
 # Les valeurs ci-dessous définissent les couleurs des cases du plan
-COULEUR_CASES = 'white'
+COULEUR_CASES = 'white' #0
 COULEUR_COULOIR = 'white'
-COULEUR_MUR = 'grey'
+COULEUR_MUR = 'grey' #1
 COULEUR_OBJECTIF = 'yellow'
 COULEUR_PORTE = 'orange'
 COULEUR_OBJET = 'green'
@@ -20,6 +22,6 @@ RATIO_PERSONNAGE = 0.9  # Rapport entre diamètre du personnage et dimension des
 POSITION_DEPART = (0, 1)  # Porte d'entrée du château
 
 # Désignation des fichiers de données à utiliser
-fichier_plan = 'plan_chateau.txt'
+fichier_plan = 'plan_test.txt'
 fichier_questions = 'dico_portes.txt'
 fichier_objets = 'dico_objets.txt'
